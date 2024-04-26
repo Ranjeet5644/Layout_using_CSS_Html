@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+          position: sticky;
+         top: 0px;
+        }
+        nav {
+            background-color: bisque;
+            height: 34px;
+            position: sticky;
+            top: 0px;
+        }
+
+        .container {
+
+            background-color: green;
+            margin: 12px 34px;
+            padding: 55px 23px;
+            text-align: center;
+        }
+        main{
+       background-color: black;
+       color: white;
+        }
+        .box1 {
+            background-color: pink;
+            height: 60vh;
+            width: 40%;
+            display: inline-block;
+            margin: 0 12px;
+        }
+
+        .box2 {
+
+            background-color: aqua;
+            height: 60vh;
+            width: 40%;
+            display: inline-block;
+            margin: 0 12px;
+        }
+
+        footer {
+            height: 50px;
+            background-color: rgb(38, 156, 156);
+
+        }
+
+        .text-box {
+            padding: 34px;
+            border: 2px solid white;
+            margin: 50px 34px;
+            font-size: 2em;
+            border-radius: 13px;
+        }
+        .orange-box{
+         height: 25px;
+         width: 25px;
+         background: orange;
+         position: fixed;
+         bottom: 12px;
+         right: 23px;
+         border-radius: 60px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+
+
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="text-box">
+                <p> Welcome in my layout</p>
+            </div>
+        </div>
+        <div class="orange-box"></div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
